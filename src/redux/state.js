@@ -1,0 +1,45 @@
+const state = {
+    user: {
+      username: "nathan",
+      email: "nathan@nathan.com",
+    },
+    listings: [
+      {
+        "id": 1,
+        "business": "The Bearded Bastard",
+        "description": "Cosmetics and Beatuy Supply",
+        "address": "209 E Ben White Blvd, Ste 104 Austin, TX 78704",
+        "open": "10:00AM - 4:00 PM"
+      },
+      {
+        "id": 2,
+        "business": "Black Star Co-op Pub and Brewery",
+        "description": "A beer co-operative and brewpub with a no-tip policy",
+        "address": "7020 Easy Wind Dr., Ste. 100",
+        "open": "10:00AM - 4:00 PM"
+      },
+      {
+        "id": 3,
+        "business": "Four Elements Yoga and Fitness",
+        "description": "A yoga studio that teaches classes while suspended in the air.",
+        "address": "314 Congress Ave., Ste. 200",
+        "open": "10:00AM - 4:00 PM"
+      },
+      {
+        "id": 4,
+        "business": "Freestyle Language Center",
+        "description": "A brand new language school aimed at adult learners.",
+        "address": "801 Rio Grande St.",
+        "open": "10:00AM - 4:00 PM"
+      },
+      {
+        "id": 5,
+        "business": "Gourdough's Big. Fat. Donuts.",
+        "description": "A mind-blowingly weird donut shop.",
+        "address": "1503 South 1st St.",
+        "open": "10:00AM - 4:00 PM"
+      }
+    ],
+  };
+  
+  export default state;
